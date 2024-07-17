@@ -1,0 +1,29 @@
+.store-listing {
+  width: 1000px;
+  margin-left: 80px;
+}
+
+#container {
+  position: relative;
+}
+
+#one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#two {
+  position: absolute;
+  top: 170px;
+  left: 635px;
+  z-index: 2;
+}
+
+#three {
+  position: absolute;
+  top: 545px;
+  left: 390px;
+  z-index: 2;
+}

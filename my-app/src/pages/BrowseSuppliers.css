@@ -1,0 +1,24 @@
+.listings {
+  margin: auto;
+  margin-top: 10px;
+  overflow: scroll;
+  cursor: pointer;
+  height: 500px;
+
+  /* width: 50px; */
+}
+
+.listing-image {
+  width: 1050px;
+}
+
+.search-field {
+  margin-left: 45px;
+  margin-right: 60px;
+}
+
+.filter-fields {
+  margin-left: 39px;
+  margin-right: 39px;
+  margin-bottom: 20px;
+}
