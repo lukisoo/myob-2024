@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, TextField } from "@mui/material";
+import { Box, TextField, MenuItem } from "@mui/material";
 import NavBar from "../components/NavBar";
 import { styled } from "@mui/system";
 import "./Store.css";
@@ -77,11 +77,18 @@ const Store = () => {
             />
             <br />
             <TextField
+              select
               label="Material"
               variant="outlined"
               size="small"
               style={{ width: "365px", marginBottom: "12px" }}
-            />
+            >
+              <MenuItem value="">Steel</MenuItem>
+              <MenuItem value="Wood">Wood</MenuItem>
+              <MenuItem value="Iron">Iron</MenuItem>
+              <MenuItem value="Copper">Copper</MenuItem>
+            </TextField>
+
             <br />
             <TextField
               label="Lead Time"

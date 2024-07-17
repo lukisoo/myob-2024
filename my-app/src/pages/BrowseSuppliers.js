@@ -115,6 +115,11 @@ const BrowseSuppliers = () => {
             >
               <MenuItem value="">All</MenuItem>
               <MenuItem value="Manufacturing">Manufacturing</MenuItem>
+              <MenuItem value="Construction">Construction</MenuItem>
+              <MenuItem value="Automotive">Automotive</MenuItem>
+              <MenuItem value="Pharmaceuticals">Pharmaceuticals</MenuItem>
+              <MenuItem value="Technology">Technology</MenuItem>
+              <MenuItem value="Textiles">Textiles</MenuItem>
             </TextField>
             <TextField
               select
